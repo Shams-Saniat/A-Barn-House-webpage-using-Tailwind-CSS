@@ -37,7 +37,7 @@
 
 <body>
     <!-- header section -->
-    <header>
+    <header class="mb-28">
         <nav>
             <div class="navbar bg-base-100">
                 <div class="navbar-start">
@@ -75,7 +75,7 @@
         <!-- hero -->
         <div class="hero">
             <div class="hero-content flex flex-col justify-center items-center text-center">
-                <img src="./assets/banner.png" class="max-w-xl" />
+                <img src="./assets/banner.png" class="lg:max-w-xl" />
                 <div>
                     <h1 class="text-5xl font-bold mb-6">A barn house of this design has a <br> striking appearance</h1>
                     <p class="py-6 mb-8">
@@ -93,35 +93,38 @@
     <!-- main section -->
     <main class="lg:container mx-auto">
         <!-- We Design Thoughtful section -->
-        <section>
-            <div class="hero bg-base-200 min-h-screen">
+        <section class="bg-base-200">
+            <div class="hero">
                 <div class="hero-content flex-col lg:flex-row-reverse">
-                    <img src="./assets/Rectangle.png" class="max-w-sm rounded-lg shadow-2xl" />
+                    <img src="./assets/Rectangle.png" class="lg:max-w-xl rounded-lg shadow-2xl my-28" />
+                    
                     <div>
-                        <h1 class="text-5xl font-bold">We design thoughtful, liveable spaces</h1>
+                        <img src="./assets/Vector.png" alt="">
+                        <button class="btn rounded-3xl mb-4">About Us<i class="rounded-full fa-solid fa-arrow-right text-xl"></i></button>
+                        <h1 class="text-5xl font-bold">We design thoughtful, <br> liveable spaces</h1>
                         <p class="py-6">
-                            The barn house captivates with its blend of rustic charm and
+                            The barn house captivates with its blend of rustic charm and <br>
                             modern sophistication, featuring weathered wood, sleek metal accents.
                         </p>
 
                         <!-- card 1 -->
                         <div class="card card-side bg-base-100 shadow-xl max-w-lg my-6">
-                            <figure>
+                            <figure class="pl-6">
                                 <img src="./assets/commercial.png" alt="commercial" />
                             </figure>
                             <div class="card-body">
-                                <h2 class="card-title">New movie is released!</h2>
-                                <p>Click the button to watch on Jetflix app.</p>
+                                <h2 class="card-title">Commercial</h2>
+                                <p>The barn house captivates with its blend of rustic charm and modern.</p>
                             </div>
                         </div>
                         <!-- card 2 -->
                         <div class="card card-side bg-base-100 shadow-xl max-w-lg">
-                            <figure>
+                            <figure class="pl-6">
                                 <img src="./assets/residential.png" alt="recidential" />
                             </figure>
                             <div class="card-body">
-                                <h2 class="card-title">New movie is released!</h2>
-                                <p>Click the button to watch on Jetflix app.</p>
+                                <h2 class="card-title">Residential</h2>
+                                <p>The barn house captivates with its blend of rustic charm and modern.</p>
                             </div>
                         </div>
                     </div>
@@ -130,17 +133,18 @@
         </section>
 
         <!-- Our Work Process section -->
-        <section class="mt-14">
+        <section class="my-28">
             <div>
                 <div class="flex flex-col justify-center items-center text-center">
-                    <h1 class="text-5xl font-bold">Our Works Process</h1>
+                    <button class="btn rounded-3xl mb-4">How we works<i class="rounded-full fa-solid fa-arrow-right text-xl"></i></button>
+                    <h1 class="text-5xl font-bold mb-6">Our Works Process</h1>
                     <p class="py-6">
                         The barn house captivates with its blend of rustic charm and modern sophistication, featuring
                         weathered wood, sleek metal accents.
                     </p>
                 </div>
 
-                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
+                <div class="grid grid-cols-1 lg:grid-cols-4">
                     <!-- card 1 -->
                     <div class="mx-36 my-8 card bg-fuchsia-200 w-72 h-56">
                         <div class="card-body">
