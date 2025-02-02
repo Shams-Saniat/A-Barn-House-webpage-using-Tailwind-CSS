@@ -26,9 +26,9 @@ Rentario offers a range of functionalities to enhance the user experience. The w
 - **Tailwind CSS**: The webpage is styled using Tailwind CSS, a utility-first CSS framework that allows for rapid and responsive design.
 
 ## How to Use
-1. Clone the repository: `git clone https://github.com/shams-saniat/Assignment-3.git`
-2. Navigate to the project directory: `cd Assignment-3`
-3. Open `index.html` in your preferred web browser to view the webpage.
+1. Clone the repository: `git clone https://github.com/Shams-Saniat/A-Barn-House-webpage-using-Tailwind-CSS`
+2. Navigate to the project directory: `cd A-Barn-House-webpage-using-Tailwind-CSS`
+3. Open `https://shams-saniat.github.io/A-Barn-House-webpage-using-Tailwind-CSS/` in your preferred web browser to view the webpage.
 
 ## Contributing
 Contributions are welcome! Please fork the repository and submit a pull request with your changes.
